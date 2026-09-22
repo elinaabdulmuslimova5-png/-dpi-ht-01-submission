@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "caseId": "DPI-HT-01",
   "student": {
-    "id": "REPLACE_WITH_STUDENT_ID",
-    "name": "REPLACE_WITH_STUDENT_NAME"
+    "id": "ea25077",
+    "name": "Elina Abdulmuslimova"
   },
   "evidence": [
     {
@@ -564,7 +564,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Treat the €60,000 and €30,000 September receipts as contract liabilities because no goods or services were delivered by 31 August.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the €90,000 New Beginnings and Fresh Freedom receipts are customer deposits/contract liabilities, not August revenue. Bank evidence confirms receipt, while CRM/contracts show September performance dates and no delivery by 31 August. Confidence: high. Effect: profit €0, cash/assets +€90,000, liabilities +€90,000, equity €0. No material uncertainty.",
       "studentReasoning": "Revenue follows delivery/performance rather than cash receipt. Both underlying events occur in September, so August profit must exclude the €90,000.",
       "statementEffect": {
         "profit": 0,
@@ -588,7 +588,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Record the €50,000 as new debt because the agreement requires repayment.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the €50,000 bank advance is loan financing, not income. The bank receipt, signed loan terms and later loan confirmation support repayment obligation. Confidence: high. Effect: profit €0, cash/assets +€50,000, liabilities +€50,000, equity €0. No material uncertainty.",
       "studentReasoning": "Borrowing increases cash and debt but does not represent earned revenue or profit.",
       "statementEffect": {
         "profit": 0,
@@ -612,7 +612,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Capitalize the packaging machine as a long-term asset.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the €60,000 Pack-O-Matic should be capitalized as PPE because it is a new machine installed and available for use from 10 May. Confidence: high. At acquisition cash falls €60,000 and PPE rises €60,000, so total assets and profit are unchanged; later depreciation affects profit/assets/equity. Useful-life detail is not separately provided.",
       "studentReasoning": "The invoice identifies a new machine available for use from 10 May. It is not a repair and benefits more than the current period.",
       "statementEffect": {
         "profit": 0,
@@ -636,7 +636,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Capitalize the photo booth as equipment rather than marketing expense.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the €20,000 Regret Photo Booth should be capitalized as PPE rather than expensed as marketing. Supplier and asset evidence show a distinct long-term asset available for use from 10 May. Confidence: high. At acquisition cash -€20,000 and PPE +€20,000 with no immediate profit/equity effect; later depreciation applies.",
       "studentReasoning": "The photo booth is a distinct long-term resource available for repeated use beyond the current period.",
       "statementEffect": {
         "profit": 0,
@@ -660,7 +660,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Expense the €10,000 because the work merely restored normal output.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the €10,000 replacement belt, cleaning and calibration should be expensed as repair/maintenance because the work restored normal output without increasing capacity or useful life. Confidence: high. Effect: profit -€10,000, cash/assets -€10,000, equity -€10,000, no closing liability if fully paid.",
       "studentReasoning": "The work did not increase capacity or extend useful life, so it does not create an improved long-term resource.",
       "statementEffect": {
         "profit": -10000,
@@ -684,7 +684,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Classify the villa payment as a distribution to the owner.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the €70,000 villa payment should be treated as an owner distribution, not marketing, payroll or company asset. Bank and owner/legal evidence show the villa was in the founder's personal name and no customer meeting occurred. Confidence: high. Effect: profit €0, cash/assets -€70,000, equity -€70,000. An owner receivable would require repayment evidence not present.",
       "studentReasoning": "The villa is in the founder's personal name and no customer meeting occurred, so there is no supported business purpose.",
       "statementEffect": {
         "profit": 0,
@@ -708,7 +708,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Classify the chairman's card spending as an owner distribution.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the €40,000 chairman/owner card spending should be treated as an owner distribution because no reliable business purpose is evidenced. Confidence: high. Effect: profit €0, cash/assets -€40,000, equity -€40,000. A receivable from the owner would require a binding repayment obligation not established by the evidence.",
       "studentReasoning": "There is no evidence of approved employment compensation or genuine business purpose. Treating it as payroll would also duplicate the €110,000 total personal owner spending.",
       "statementEffect": {
         "profit": 0,
@@ -731,7 +731,7 @@
       ],
       "confidence": "medium",
       "aiProposal": "Recognize the documented €405,000 of materials consumed on valid delivered sales as COGS.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that €405,000 of physical product materials consumed on valid delivered sales should be classified as COGS/direct product cost. Warehouse evidence expressly states the €405,000 consumption amount. Confidence: high. Underlying consumption reduces profit, inventory/assets and equity by €405,000 with no cash effect at consumption. The inventory roll-forward conflict is addressed separately in D075.",
       "studentReasoning": "The warehouse evidence directly states €405,000 consumption. The separate €9,000 closing-inventory conflict is disclosed as uncertainty rather than silently altering this documented amount.",
       "statementEffect": {
         "profit": -405000,
@@ -754,7 +754,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Treat event delivery staff payroll as a direct cost of paid events.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that €80,000 event delivery staff payroll is a direct service/event cost rather than administrative expense. Payroll evidence states the staff work directly on paid events. Confidence: high. Agent 2 emphasizes that the classification change itself does not change total profit, cash, assets, liabilities or equity; it changes gross-margin presentation. The underlying €80,000 remains payroll expense. Category-level closing liability should not be invented.",
       "studentReasoning": "The staff work directly on revenue-producing events, so direct-cost classification is more appropriate than management's administrative classification.",
       "statementEffect": {
         "profit": -80000,
@@ -843,7 +843,7 @@
       ],
       "confidence": "medium",
       "aiProposal": "Book the independent schedule estimate of €24,000 depreciation.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that depreciation is a non-cash operating expense with a corresponding increase in accumulated depreciation. The asset schedule states management booked zero and gives an independent €24,000 period estimate. Confidence: high. Using that estimate: profit/assets/equity -€24,000, cash €0, liabilities €0. Full asset-by-asset calculations are not provided.",
       "studentReasoning": "Management booked zero, but the asset schedule states an independent period estimate of €24,000. Depreciation reduces profit and net PPE without using current-period cash.",
       "statementEffect": {
         "profit": -24000,
@@ -867,7 +867,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Recognize an €18,000 bad-debt loss and remove the receivable.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the €18,000 R-17 receivable should be fully impaired/written off because liquidation evidence confirms no recovery and the condition existed at 31 August. Confidence: high. Effect: profit/assets/equity -€18,000, cash €0, liabilities €0. Presentation as direct write-off versus 100% allowance may depend on policy, but net effect is the same.",
       "studentReasoning": "The post-period liquidator notice confirms insolvency already existing at 31 August and says no distribution is expected, so the reporting-date receivable is not recoverable.",
       "statementEffect": {
         "profit": -18000,
@@ -890,7 +890,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Write off the full €22,000 carrying value of the unsaleable stock.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the €22,000 water-damaged basement inventory should be written down to zero because warehouse and external evidence say it has no saleable value. Confidence: high. Effect: profit/assets/equity -€22,000, cash €0. The separate €2,000 disposal quote should not make inventory negative; a separate provision would require evidence of a present obligation.",
       "studentReasoning": "Physical existence does not create recoverable value. The warehouse and independent assessment state the stock cannot be sold.",
       "statementEffect": {
         "profit": -22000,
@@ -914,7 +914,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Book the lawyer's €25,000 best estimate as expense and provision.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that a €25,000 legal provision and expense should be recognized for the former employee claim. External counsel considered the claim probable at 31 August and gave €25,000 as best estimate within a €20,000-€30,000 range. Confidence: high. Effect: profit/equity -€25,000, liabilities +€25,000, cash/assets €0 at reporting date.",
       "studentReasoning": "The obligation was probable at the reporting date and can be estimated. No payment is needed for recognition.",
       "statementEffect": {
         "profit": -25000,
@@ -985,7 +985,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Recognize the full €180,000 because the goods were accepted on 12 February.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that €180,000 NorthStar revenue should be recognized because delivery/acceptance occurred on 12 February and the full amount was collected. Contract, CRM and bank evidence agree. Confidence: high. Before associated costs: profit/cash/assets/equity +€180,000, no closing receivable or liability.",
       "studentReasoning": "Bank naming differs from the contract, but the amount/date and CRM mapping reconcile the counterparty. Delivery and acceptance occurred before 31 August.",
       "statementEffect": {
         "profit": 180000,
@@ -1009,7 +1009,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Recognize the full €200,000 delivered contract value.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the full €200,000 Freedom contract value should be recognized as revenue because the order was accepted; €142,000 was collected and €58,000 remains receivable. Confidence: high. Before associated costs: profit/equity +€200,000, cash +€142,000, receivables +€58,000, total assets +€200,000. No specific impairment evidence for the €58,000 balance.",
       "studentReasoning": "Revenue is based on delivery/acceptance, not collection. The unpaid €58,000 remains an asset.",
       "statementEffect": {
         "profit": 200000,
@@ -1033,7 +1033,7 @@
       ],
       "confidence": "medium",
       "aiProposal": "Recognize €100,000 because the event was completed on 29 April.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that €100,000 Phoenix event revenue should be recognized because the event was completed and accepted on 29 April; €70,000 was collected and €30,000 remains receivable. Confidence: high. Before associated costs: profit/equity +€100,000, cash +€70,000, receivables +€30,000, total assets +€100,000.",
       "studentReasoning": "Final acceptance is an email rather than a signed page, so confidence is slightly lower, but completion evidence, CRM and bank data are consistent.",
       "statementEffect": {
         "profit": 100000,
@@ -1057,7 +1057,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Recognize the full €120,000 delivered order.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that €120,000 Liberty Hotels revenue should be recognized because the order was delivered and accepted in full; €95,000 was collected and €25,000 remains receivable. Confidence: high. Before associated costs: profit/equity +€120,000, cash +€95,000, receivables +€25,000, assets +€120,000.",
       "studentReasoning": "The customer explicitly confirmed that the boxes arrived and were accepted in full. The unpaid amount remains receivable.",
       "statementEffect": {
         "profit": 120000,
@@ -1081,7 +1081,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Exclude both September events from August revenue.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the New Beginnings and Fresh Freedom September events should not be recognized as August revenue. The €90,000 receipts remain contract liabilities until performance. Confidence: high. Effect: profit/equity €0, cash/assets +€90,000, liabilities +€90,000.",
       "studentReasoning": "Both delivery dates occur after 31 August. The cash creates a liability until performance occurs.",
       "statementEffect": {
         "profit": 0,
@@ -1129,7 +1129,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Write off €18,000 based on the liquidator notice.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently estimates an €18,000 write-off or 100% allowance for R-17. CRM shows €186,000 gross closing receivables and contract/external evidence identifies the €18,000 R-17 balance as unrecoverable. Confidence: high. Net receivables become €168,000 assuming no additional unidentified impairment. Effect: profit/assets/equity -€18,000, cash €0.",
       "studentReasoning": "R-17 is the only specifically evidenced uncollectible balance. Do not invent a wider allowance without additional evidence.",
       "statementEffect": {
         "profit": -18000,
@@ -1152,7 +1152,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Write off the €22,000 carrying value in full.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently estimates a €22,000 damaged-inventory write-off. Warehouse and external evidence give €22,000 carrying value and zero saleable value. Confidence: high. Effect: profit/assets/equity -€22,000, cash €0. The approximately €2,000 disposal cost is separate and should not automatically be added without evidence of a present obligation.",
       "studentReasoning": "The goods have zero saleable value. The separate €2,000 disposal quote is disclosed as uncertainty rather than added to the inventory carrying-value write-off.",
       "statementEffect": {
         "profit": -22000,
@@ -1175,7 +1175,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Recognize the lawyer's €25,000 best estimate.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently estimates a €25,000 legal provision based on external counsel's best estimate, with a reasonable €20,000-€30,000 range. Confidence: high. Effect: profit/equity -€25,000, liabilities +€25,000, cash/assets €0 at 31 August. Actual settlement may differ within the documented range.",
       "studentReasoning": "External counsel explicitly identifies €25,000 as the best estimate within the €20,000-€30,000 range.",
       "statementEffect": {
         "profit": -25000,
@@ -1197,7 +1197,7 @@
       ],
       "confidence": "medium",
       "aiProposal": "Use the supplied independent depreciation estimate of €24,000.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently estimates €24,000 period depreciation because the asset schedule explicitly provides that independent estimate and states that management booked zero. Confidence: medium to high. Effect: profit/assets/equity -€24,000, cash/liabilities €0. The underlying asset-by-asset depreciation calculation is not provided.",
       "studentReasoning": "The case does not provide enough useful-life detail to rebuild every asset's depreciation independently, so the supplied schedule is the strongest case amount.",
       "statementEffect": {
         "profit": -24000,
@@ -1220,7 +1220,7 @@
       ],
       "confidence": "medium",
       "aiProposal": "Use €112,000 from the accounting roll-forward: €80,000 opening + €459,000 purchases - €405,000 consumption - €22,000 write-off.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently prefers €121,000 closing usable inventory, with medium confidence. The direct 31 August physical count shows €79,000 Finally Single materials + €42,000 Never Call Back materials + €22,000 damaged basement stock = €143,000 physically recorded; removing the €22,000 stock with zero saleable value gives €121,000. Agent 2 notes a genuine €9,000 conflict because the roll-forward €80,000 opening + €459,000 purchases - €405,000 consumption gives €134,000 before impairment (or €112,000 after the €22,000 write-off). Agent 2 would rely primarily on the direct physical count and leave the €9,000 difference unresolved rather than invent an explanation.",
       "studentReasoning": "The warehouse count implies €121,000 saleable inventory after excluding the damaged €22,000. Because the case contains an unresolved €9,000 conflict, keep the central roll-forward amount but disclose the alternative.",
       "statementEffect": {
         "profit": -31000,
@@ -1430,7 +1430,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Use corrected accounts rather than unreconciled management accounts for valuation.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently recommends approving corrected and reconciled accounts before valuation rather than using management figures. It identifies the required supported corrections: September deposits, loan classification, PPE capitalization, repair expense, owner distributions, R-17 impairment, damaged inventory, legal provision, depreciation, deposit liability and externally supported cash/debt balances. Confidence: high. The approval decision itself creates no new accounting entry. The €9,000 inventory conflict should remain disclosed and investigated.",
       "studentReasoning": "Management's accounts include unsupported classifications and omit required adjustments. Valuation should rely on the corrected statements, with the €9,000 inventory conflict and other evidence gaps clearly disclosed.",
       "statementEffect": {
         "profit": null,
@@ -1556,7 +1556,7 @@
       ],
       "confidence": "high",
       "aiProposal": "Reject the management profit as the accounting basis for an earn-out.",
-      "independentChallenge": "PENDING INDEPENDENT AGENT 2: give Agent 2 the original evidence only and replace this text with its independent analysis before final certification.",
+      "independentChallenge": "Agent 2 independently concludes that the claimed €312,000 management profit should not be used as the earn-out basis without correction and reconciliation. The management workbook is unreconciled and stronger evidence requires multiple material corrections. Confidence: high. Agent 2 adds that the earn-out should use the corrected profit measure defined by the actual earn-out agreement; because the formula, measurement date and contractual definition of profit are not supplied, no earn-out amount should be invented. The board decision itself has no direct financial-statement effect.",
       "studentReasoning": "The €312,000 figure includes unsupported revenue and bank income classifications and omits required adjustments. The central corrected reconstruction produces €65,000.",
       "statementEffect": {
         "profit": null,
@@ -1777,10 +1777,10 @@
       "rangeEffect": "No effect on total period payroll, but monthly allocation cannot be reliably reconstructed."
     },
     {
-      "issue": "Independent Agent 2 review trail",
-      "centralTreatment": "Agent 1 proposal and final draft are populated.",
-      "alternative": "Each material judgment's independentChallenge remains explicitly marked PENDING.",
-      "rangeEffect": "Must be completed in a genuinely separate AI conversation before final certification to follow the assignment instructions."
+      "issue": "Agent 1 / Agent 2 inventory disagreement",
+      "centralTreatment": "The central submission retains €112,000 closing inventory from the accounting roll-forward.",
+      "alternative": "Independent Agent 2 prefers €121,000 based on the direct physical count after removing €22,000 damaged stock.",
+      "rangeEffect": "€9,000 difference in inventory, profit and equity depending on final resolution. The disagreement is explicitly preserved for student certification."
     }
   ],
   "boardRecommendation": {
@@ -1796,5 +1796,15 @@
       "Implement controlled inventory counts, purchase/COGS reconciliations and documented write-off approval; investigate the €9,000 inventory discrepancy."
     ],
     "additionalAction": "Investigate management override and unsupported reclassifications before valuation."
+  },
+  "agent2ReviewStatus": {
+    "status": "complete",
+    "materialJudgmentsReviewed": 25,
+    "notableDifferences": [
+      "D075: Agent 2 prefers €121,000 closing inventory; central submission currently uses €112,000.",
+      "D049: Agent 2 emphasizes that direct-vs-admin payroll classification changes gross-margin presentation but not total profit.",
+      "D100: Agent 2 agrees €312,000 should not be used, but says an earn-out amount cannot be calculated without the contractual earn-out definition."
+    ],
+    "studentCertificationRequired": true
   }
 }
