@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DPI Assessor Review</title><link rel="stylesheet" href="/styles.css"></head>
+<body>
+<header><div class="header-inner"><div class="brand"><div class="logo">DPI</div><div class="brand-name">Financial Crime Scene</div></div><nav class="nav"><a href="/">Case file</a><a class="active" href="/review.html">Assessor review</a><a href="/submission.json">Submission JSON</a></nav></div></header>
+<main>
+<section class="hero" style="padding-bottom:70px">
+ <div class="kicker">ASSESSOR REVIEW · 25 MATERIAL JUDGMENTS</div>
+ <h1>Judgment,<br><span class="aqua">under review.</span></h1>
+ <p class="lead">A compact review trail showing AI proposal, independent challenge status, final certification, reasoning, evidence and statement effect.</p>
+</section>
+
+<section class="open-items">
+ <div class="kicker">REVIEW STATUS</div>
+ <h2>Independent Agent 2 is still pending.</h2>
+ <p>The financial reconstruction is complete. The second-agent fields remain explicitly marked pending until a separate analysis is performed from the original evidence.</p>
+</section>
+
+<section class="workspace">
+ <div class="kicker">REVIEW WORKSPACE</div>
+ <h2>Twenty-five material judgments, one evidence trail.</h2>
+ <div id="stats" class="workspace-grid"></div>
+</section>
+
+<section class="section">
+ <div class="controls"><input id="search" placeholder="Search material judgments"><select id="conf"><option value="">All confidence</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option></select></div>
+ <div id="reviewList" class="card-list"></div>
+</section>
+</main>
+<footer>DPI-HT-01 · Assessor review</footer>
+<script src="/app.js"></script>
+<script>
+(async()=>{
+ const d=await DPI.getData(),m=d.decisions.filter(x=>x.reviewTier==="material_judgment");
+ const pending=m.filter(x=>String(x.independentChallenge||"").startsWith("PENDING")).length;
+ stats.innerHTML=[["25","material judgments"],[pending,"Agent 2 pending"],[m.filter(x=>x.confidence==="medium").length,"medium confidence"],[m.filter(x=>x.confidence==="low").length,"low confidence"]].map(([n,t])=>`<div class="workspace-card"><div class="num">${n}</div><div class="desc">${t}</div></div>`).join("");
+ function render(){
+  const q=search.value.toLowerCase().trim();
+  reviewList.innerHTML=m.filter(x=>(!q||(x.id+" "+x.question+" "+JSON.stringify(x.answer)).toLowerCase().includes(q))&&(!conf.value||x.confidence===conf.value)).map(x=>{
+    const p=String(x.independentChallenge||"").startsWith("PENDING");
+    return `<details class="detail-card" open><summary>${x.id} · ${x.question} ${DPI.badge(x.confidence)} ${p?'<span class="badge pending">Agent 2 pending</span>':'<span class="badge pass">Agent 2 complete</span>'}</summary>
+    <div class="review-grid">
+      <div class="review-cell"><h4>AI proposal</h4><p>${x.aiProposal}</p></div>
+      <div class="review-cell"><h4>Independent challenge</h4><p>${x.independentChallenge}</p></div>
+      <div class="review-cell"><h4>Final certification</h4><p>${x.answer}</p></div>
+      <div class="review-cell"><h4>Student reasoning</h4><p>${x.studentReasoning}</p></div>
+    </div>${DPI.effect(x.statementEffect)}<p><b>Evidence:</b> ${x.evidence.join("; ")}</p></details>`;
+  }).join("");
+ }
+ [search,conf].forEach(e=>e.addEventListener("input",render));render();
+})();
+</script>
+</body></html>

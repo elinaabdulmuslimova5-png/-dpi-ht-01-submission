@@ -1,0 +1,25 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/review",
+      "destination": "/review.html"
+    },
+    {
+      "source": "/review/",
+      "destination": "/review.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/submission.json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        }
+      ]
+    }
+  ]
+}

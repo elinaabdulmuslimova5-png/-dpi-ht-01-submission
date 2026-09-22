@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DPI Financial Crime Scene</title><link rel="stylesheet" href="/styles.css"></head>
+<body>
+<header><div class="header-inner">
+  <div class="brand"><div class="logo">DPI</div><div class="brand-name">Financial Crime Scene</div></div>
+  <nav class="nav"><a class="active" href="/">Case file</a><a href="/review.html">Assessor review</a><a href="/submission.json">Submission JSON</a></nav>
+</div></header>
+
+<main>
+<section class="hero">
+  <div class="kicker">DPI-HT-01 · 31 AUG 2026</div>
+  <h1>Corrected<br>accounts,<br><span class="aqua">evidence first.</span></h1>
+  <p class="lead">A traceable reconstruction of Divorce Party International Ltd. prepared for Bad Decisions Capital Ltd.</p>
+
+  <div class="identity">
+    <div class="identity-row"><div class="label">Student</div><div class="value">YOUR NAME</div></div>
+    <div class="identity-row"><div class="label">Student ID</div><div class="value">YOUR STUDENT ID</div></div>
+    <div class="identity-row"><div class="label">Deadline</div><div class="value">23 Sep 2026 · morning</div></div>
+    <div class="identity-row cert"><div class="label">Certification</div><div class="value">READY FOR CERTIFICATION</div></div>
+  </div>
+
+  <div class="kpi-stack">
+    <div class="kpi-card"><div class="kpi-label">Net profit</div><div class="kpi-value">€65,000</div><div class="kpi-sub">Management claimed €312,000</div></div>
+    <div class="kpi-card"><div class="kpi-label">Closing cash</div><div class="kpi-value">€60,000</div><div class="kpi-sub">Agrees to bank evidence</div></div>
+    <div class="kpi-card"><div class="kpi-label">Total assets</div><div class="kpi-value">€531,000</div><div class="kpi-sub">Base-case reconstruction</div></div>
+    <div class="kpi-card"><div class="kpi-label">Closing equity</div><div class="kpi-value">€125,000</div><div class="kpi-sub">After €110,000 distributions</div></div>
+  </div>
+</section>
+
+<section class="open-items">
+  <div class="kicker">OPEN ITEMS · 04</div>
+  <h2>The accounts balance. The evidence still has gaps.</h2>
+  <p>Inventory differs by €9,000; a €45,000 supplier-payment residual is inferred as opening payable; insurance evidence is missing; and loan maturity is unknown.</p>
+</section>
+
+<section class="workspace">
+  <div class="kicker">CASE WORKSPACE</div>
+  <h2>Every conclusion must lead back to evidence.</h2>
+  <div class="workspace-grid">
+    <div class="workspace-card"><div class="num">100</div><div class="desc">decisions required</div></div>
+    <div class="workspace-card"><div class="num">25</div><div class="desc">material judgments</div></div>
+    <div class="workspace-card"><div class="num">7</div><div class="desc">supporting schedules</div></div>
+    <div class="workspace-card"><div class="num">3</div><div class="desc">financial statements</div></div>
+  </div>
+</section>
+
+<nav class="inner-tabs">
+  <a href="#evidence">Evidence</a><a href="#decisions">100 decisions</a><a href="#schedules">Schedules</a><a href="#statements">Statements</a><a href="#recs">Reconciliations</a><a href="#uncertainty">Uncertainty</a><a href="#board">Board</a>
+</nav>
+
+<section class="section" id="evidence">
+  <div class="section-head">
+    <div class="kicker">01 · EVIDENCE REGISTER</div>
+    <h2>Sources ranked by reliability</h2>
+    <p>Bank records and signed third-party evidence take priority over management spreadsheets and messages.</p>
+  </div>
+  <div class="table-wrap"><table id="evidenceTable"></table></div>
+</section>
+
+<section class="section" id="decisions">
+  <div class="section-head">
+    <div class="kicker">02 · DECISION REGISTER</div>
+    <h2>100 decisions, traceable to source evidence</h2>
+    <p>Each decision contains a final treatment, evidence list and confidence assessment.</p>
+  </div>
+  <div class="controls"><input id="search" placeholder="Search D001–D100"><select id="tier"><option value="">All tiers</option><option value="operational">Operational</option><option value="material_judgment">Material judgment</option></select><select id="conf"><option value="">All confidence</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option></select></div>
+  <div id="decisionList" class="card-list"></div>
+</section>
+
+<section class="section" id="schedules">
+  <div class="section-head"><div class="kicker">03 · SUPPORTING SCHEDULES</div><h2>Seven schedules behind the statements</h2><p>Revenue, working capital, payroll, PPE, debt, distributions and equity are reconstructed before the statements.</p></div>
+  <div id="scheduleList" class="card-list"></div>
+</section>
+
+<section class="section" id="statements">
+  <div class="section-head"><div class="kicker">04 · FINANCIAL STATEMENTS</div><h2>Three statements. One reconciled case.</h2></div>
+  <div class="section-head"><p style="margin-bottom:24px"><b>Profit & Loss</b></p></div><div class="table-wrap"><table id="pl"></table></div><br><br>
+  <div class="section-head"><p style="margin-bottom:24px"><b>Cash Flow</b></p></div><div class="table-wrap"><table id="cf"></table></div><br><br>
+  <div class="section-head"><p style="margin-bottom:24px"><b>Balance Sheet</b></p></div><div class="table-wrap"><table id="bs"></table></div>
+</section>
+
+<section class="section" id="recs">
+  <div class="section-head"><div class="kicker">05 · RECONCILIATIONS</div><h2>Checks before valuation</h2></div>
+  <div id="recList" class="card-list"></div>
+</section>
+
+<section class="section" id="uncertainty">
+  <div class="section-head"><div class="kicker">06 · UNCERTAINTY</div><h2>The gaps stay visible</h2></div>
+  <div id="uncList" class="card-list"></div>
+</section>
+
+<section class="section" id="board">
+  <div class="section-head"><div class="kicker">07 · BOARD RECOMMENDATION</div><h2>Correct first. Value second.</h2></div>
+  <div id="boardBox" class="detail-card"></div>
+</section>
+</main>
+
+<footer>DPI-HT-01 · Case file · Assessor review · Submission JSON</footer>
+<script src="/app.js"></script>
+<script>
+(async()=>{
+const d=await DPI.getData();
+const rank=f=>{
+  const s=f.toLowerCase();
+  if(s.includes("bank")||s.includes("contracts")||s.includes("after takeover")||s.includes("purchases"))return["STRONG","high"];
+  if(s.includes("warehouse")||s.includes("payroll")||s.includes("assets"))return["MEDIUM","medium"];
+  if(s.includes("management")||s.includes("email"))return["LOW","low"];
+  return["REFERENCE","pending"];
+};
+evidenceTable.innerHTML="<tr><th>ID</th><th>Source</th><th>Type</th><th>Strength</th></tr>"+
+d.evidence.map((e,i)=>{const r=rank(e.file);return `<tr><td class="eid">E${String(i+1).padStart(2,"0")}</td><td><b>${e.file}</b></td><td>${e.role}</td><td><span class="badge ${r[1]}">${r[0]}</span></td></tr>`}).join("");
+
+function renderDecisions(){
+ const q=search.value.toLowerCase().trim();
+ decisionList.innerHTML=d.decisions.filter(x=>(!q||(x.id+" "+x.question+" "+JSON.stringify(x.answer)).toLowerCase().includes(q))&&(!tier.value||x.reviewTier===tier.value)&&(!conf.value||x.confidence===conf.value))
+ .map(x=>`<details class="detail-card"><summary>${x.id} · ${x.question} &nbsp; ${DPI.badge(x.confidence)} ${x.reviewTier==="material_judgment"?'<span class="badge pending">material</span>':""}</summary><p><b>Final answer:</b> ${x.answer}</p><p><b>Evidence:</b> ${x.evidence.join("; ")}</p></details>`).join("");
+}
+[search,tier,conf].forEach(e=>e.addEventListener("input",renderDecisions));renderDecisions();
+
+scheduleList.innerHTML=Object.entries(d.schedules).map(([k,v])=>{
+ const rows=Object.entries(v).filter(([,x])=>typeof x==="number").slice(0,8).map(([a,b])=>`<p><b>${DPI.label(a)}:</b> ${DPI.EUR(b)}</p>`).join("");
+ return `<div class="detail-card"><div class="kicker">${DPI.label(k)}</div>${rows}${v.reconciliation?`<p style="color:var(--muted)">${v.reconciliation}</p>`:""}</div>`;
+}).join("");
+
+pl.innerHTML="<tr><th>Line</th><th class='money'>EUR</th></tr>"+DPI.moneyRows(d.statements.profitAndLoss);
+cf.innerHTML="<tr><th>Line</th><th class='money'>EUR</th></tr>"+DPI.moneyRows(d.statements.cashFlow);
+bs.innerHTML="<tr><th>Line</th><th class='money'>EUR</th></tr>"+DPI.moneyRows({...d.statements.balanceSheet.assets,...d.statements.balanceSheet.liabilities,...d.statements.balanceSheet.equity,totalLiabilitiesAndEquity:d.statements.balanceSheet.totalLiabilitiesAndEquity});
+
+recList.innerHTML=d.reconciliations.map(r=>`<div class="detail-card"><p>${DPI.badge(r.status.includes("UNCERTAINTY")?"warn":"pass")} <b>${r.name}</b></p><p>${r.detail}</p></div>`).join("");
+uncList.innerHTML=d.uncertainties.map(u=>`<div class="detail-card"><div class="kicker">${u.issue}</div><p><b>Central treatment:</b> ${u.centralTreatment}</p><p><b>Alternative:</b> ${u.alternative}</p><p>${u.rangeEffect}</p></div>`).join("");
+
+const b=d.boardRecommendation;
+boardBox.innerHTML=`<p><b>${b.overallRecommendation}</b></p><p>${b.coreBusinessDecision}</p><ol>${b.fiveImmediateControlActions.map(x=>`<li>${x}</li>`).join("")}</ol><p><b>Additional action:</b> ${b.additionalAction}</p>`;
+})();
+</script>
+</body></html>
